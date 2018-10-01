@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "47e69a10-97fb-11e7-80b5-8b308931a03d",
+    "_type": "visualization",
+    "_source": {
+      "title": "Kubernetes (Custom) Network Rx/Tx Bytes (visual builder)",
+      "visState": "{\"title\":\"Kubernetes (Custom) Network Rx/Tx Bytes (visual builder)\",\"type\":\"metrics\",\"params\":{\"id\":\"87a67220-97fa-11e7-80b5-8b308931a03d\",\"type\":\"timeseries\",\"series\":[{\"id\":\"87a67221-97fa-11e7-80b5-8b308931a03d\",\"color\":\"rgba(250,40,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"87a67222-97fa-11e7-80b5-8b308931a03d\",\"type\":\"max\",\"field\":\"kubernetes.pod.network.rx.bytes\"},{\"unit\":\"1s\",\"id\":\"a94cf5d0-97fe-11e7-9bc9-bbe767907371\",\"type\":\"derivative\",\"field\":\"87a67222-97fa-11e7-80b5-8b308931a03d\"},{\"unit\":\"\",\"id\":\"bb9a9290-0542-11e8-867c-7f80b803f8cd\",\"type\":\"positive_only\",\"field\":\"a94cf5d0-97fe-11e7-9bc9-bbe767907371\"},{\"id\":\"c07e1930-0542-11e8-867c-7f80b803f8cd\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"hide_in_legend\":0,\"label\":\"Network RX Bytes\"},{\"id\":\"cb7ac040-0542-11e8-867c-7f80b803f8cd\",\"color\":\"rgba(251,158,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"cb7ac041-0542-11e8-867c-7f80b803f8cd\",\"type\":\"max\",\"field\":\"kubernetes.pod.network.tx.bytes\"},{\"unit\":\"1s\",\"id\":\"cb7ac042-0542-11e8-867c-7f80b803f8cd\",\"type\":\"derivative\",\"field\":\"cb7ac041-0542-11e8-867c-7f80b803f8cd\"},{\"unit\":\"\",\"id\":\"cb7ac043-0542-11e8-867c-7f80b803f8cd\",\"type\":\"positive_only\",\"field\":\"cb7ac042-0542-11e8-867c-7f80b803f8cd\"},{\"id\":\"cb7ac044-0542-11e8-867c-7f80b803f8cd\",\"type\":\"series_agg\",\"function\":\"sum\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"hide_in_legend\":0,\"label\":\"Network TX Bytes\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"legend_position\":\"bottom\",\"show_grid\":1},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  }
+]

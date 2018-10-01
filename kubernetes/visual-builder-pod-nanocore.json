@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "8018b310-97fa-11e7-80b5-8b308931a03d",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "uiStateJSON": "{}",
+      "title": "Kubernetes (Custom) Nanocore Usage versus Limit (visual builder)",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\"}},\"filter\":[]}"
+      },
+      "visState": "{\"title\":\"Kubernetes (Custom) Nanocore Usage versus Limit (visual builder)\",\"type\":\"metrics\",\"params\":{\"id\":\"2f6054f0-97fa-11e7-80b5-8b308931a03d\",\"type\":\"timeseries\",\"series\":[{\"id\":\"2f6054f1-97fa-11e7-80b5-8b308931a03d\",\"color\":\"rgba(211,49,21,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"2f6054f2-97fa-11e7-80b5-8b308931a03d\",\"type\":\"sum\",\"field\":\"kubernetes.container.cpu.limit.nanocores\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":null,\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"CPU Nanocore Limit\"},{\"id\":\"5b9fb1a0-97fa-11e7-80b5-8b308931a03d\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"5b9fb1a1-97fa-11e7-80b5-8b308931a03d\",\"type\":\"sum\",\"field\":\"kubernetes.container.cpu.usage.nanocores\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":0.5,\"stacked\":\"none\",\"label\":\"CPU Nanocore Usage\"},{\"id\":\"5026f580-a78c-11e7-bafe-6de940d896dd\",\"color\":\"rgba(101,50,148,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"5026f581-a78c-11e7-bafe-6de940d896dd\",\"type\":\"sum\",\"field\":\"kubernetes.container.cpu.request.nanocores\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"CPU Nanocore Request\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"legend_position\":\"bottom\"},\"aggs\":[],\"listeners\":{}}"
+    }
+  }
+]

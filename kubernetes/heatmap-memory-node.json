@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "AWBM7usz0zTzs5SKjEyF",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0B - 512.227GB\":\"rgb(247,252,245)\",\"512.227GB - 1TB\":\"rgb(199,233,192)\",\"1TB - 1.501TB\":\"rgb(116,196,118)\",\"1.501TB - 2.001TB\":\"rgb(35,139,69)\"}}}",
+      "title": "Kubernetes memory consumption by namespace/node",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"metricbeat-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      },
+      "visState": "{\"title\":\"Kubernetes memory consumption by namespace/node\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}],\"type\":\"heatmap\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"kubernetes.container.memory.usage.bytes\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"kubernetes.namespace\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"kubernetes.node.name\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}"
+    }
+  }
+]

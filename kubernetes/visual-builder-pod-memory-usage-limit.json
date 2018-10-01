@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "2b0fbf80-97fa-11e7-80b5-8b308931a03d",
+    "_type": "visualization",
+    "_source": {
+      "description": "",
+      "uiStateJSON": "{}",
+      "title": "Kubernetes (Custom) Memory Usage versus Limit (visual builder)",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\"}},\"filter\":[]}"
+      },
+      "visState": "{\"title\":\"Kubernetes (Custom) Memory Usage versus Limit (visual builder)\",\"type\":\"metrics\",\"params\":{\"id\":\"a28ca7a0-97f8-11e7-80b5-8b308931a03d\",\"type\":\"timeseries\",\"series\":[{\"id\":\"a28ca7a1-97f8-11e7-80b5-8b308931a03d\",\"color\":\"rgba(244,78,59,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"a28ca7a2-97f8-11e7-80b5-8b308931a03d\",\"type\":\"sum\",\"field\":\"kubernetes.container.memory.limit.bytes\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"Memory Limit\"},{\"id\":\"a64ffbc0-97f9-11e7-80b5-8b308931a03d\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"a64ffbc1-97f9-11e7-80b5-8b308931a03d\",\"type\":\"sum\",\"field\":\"kubernetes.container.memory.usage.bytes\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Memory Use\"},{\"id\":\"38efd380-a879-11e7-81a1-ed0d5dfe393d\",\"color\":\"rgba(101,50,148,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"38efd381-a879-11e7-81a1-ed0d5dfe393d\",\"type\":\"sum\",\"field\":\"kubernetes.container.memory.request.bytes\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"Memory Request\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"metricbeat-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"filter\":\"\",\"legend_position\":\"bottom\"},\"aggs\":[],\"listeners\":{}}"
+    }
+  }
+]
